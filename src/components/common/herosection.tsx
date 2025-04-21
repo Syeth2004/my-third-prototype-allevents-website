@@ -34,7 +34,7 @@ export default function HeroSection() {
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-end w-full sm:w-auto gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-end w-full sm:w-auto gap-4">                                                                                                                                                                                           
             <div className="flex flex-col sm:flex-row items-center w-full sm:w-auto gap-2 sm:gap-4">
               <Link href="/createevents" className="w-full sm:w-auto">
                 <Button className="w-full sm:w-auto bg-teal-500 text-white font-bold py-2 sm:py-3 px-4 sm:px-6">

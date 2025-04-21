@@ -1,13 +1,13 @@
-import HeroSection  from "@/app/herosection/page";
-import HeaderPage  from "@/app/headerpage/page";
-import CalanderEventSection from "@/app/calandereventsection/page";
-import EventsInChennai from "@/app/eventsinchennai/page";
-import ChennaiMostLoved from "@/app/chennaimostloved/page";
-import PopularInChennai from "@/app/popularinchennai/page";
-import ExploreTheEventsByDates from "@/app/exploretheeventsbydates/page";
-import InterestByEvent from "@/app/interestbyevent/page";
-import SubscriotionForEvents from "@/app/subscriptionforevent/page";
-import FooterSection from "@/app/footersection/page";
+import HeroSection  from "@/components/common/herosection";
+import HeaderPage  from "@/components/common/headerpage";
+import CalanderSection from "@/components/common/calandersection";
+import EventsInSection from "@/components/common/eventsinsection";
+import MostLoved from "@/components/common/mostloved";
+import PopularEvevts from "@/components/common/popularevents";
+import ExploreTheEventsByDates from "@/components/common/exploretheeventsbydates";
+import InterestByEvent from "@/components/common/interestbyevent";
+import SubscriotionForEvents from "@/components/common/subscriptionevents";
+import FooterSection from "@/components/common/footersection";
 
 
 
@@ -16,10 +16,10 @@ export default function Home() {
     <main className="min-h-10 bg-gray-50">
       <HeroSection/>
       <HeaderPage/>
-      <CalanderEventSection/>
-      <EventsInChennai/>
-      <ChennaiMostLoved/>    
-      <PopularInChennai/>
+      <CalanderSection/>
+      <EventsInSection/>
+      <MostLoved/>    
+      <PopularEvevts/>
       <InterestByEvent/>
       <ExploreTheEventsByDates/>
       <SubscriotionForEvents/>
